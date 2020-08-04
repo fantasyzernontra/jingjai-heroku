@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "*",
+    "mongoose": "^5.9.25"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "description": "api server",
+  "main": "index.js",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -r dotenv/config index.js"
+  },
+  "author": "non-nontra",
+  "license": "ISC"
+}
